@@ -52,7 +52,6 @@ void InitWave(void)
 void LoadWave(void)
 {
 	FILE* pFile = NULL;		//ファイルポインタ
-	int nType;				//タイプ
 	D3DXVECTOR3 pos;		//座標
 
 	//敵の取得

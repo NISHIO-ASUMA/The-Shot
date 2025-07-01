@@ -251,8 +251,6 @@ void SaveEdit(void)
 {
 
 	FILE* pFile;	//ファイルポインタを宣言
-
-	int nType;			//種類
 	D3DXVECTOR3 pos;	//座標
 
 	//ファイルを開く

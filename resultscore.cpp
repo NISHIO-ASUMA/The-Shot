@@ -127,8 +127,6 @@ void DrawResultScore(void)
 	//デバイスの取得
 	pDevice = GetDevice();
 
-	VERTEX_2D* pVtx;		//頂点情報のポインタ
-
 	//頂点バッファをデータストリームに設定
 	pDevice->SetStreamSource(0, g_pVtxBuffResultScore, 0, sizeof(VERTEX_2D));
 
